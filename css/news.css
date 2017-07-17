@@ -1,0 +1,108 @@
+body{
+	min-width: 1100px;
+}
+/******************************/
+
+#news_content{
+	width: 1100px;
+	margin: 0 auto;
+}
+/*********************************/
+.content_wrap h1{
+	text-align: center;
+	font-size: 54px;
+	color: #311759;
+}
+
+.content_wrap h2{
+	text-align: center;
+	font-size: 18px;
+	color: #311759;
+	letter-spacing: 6px;
+}
+
+.content_wrap img{
+	display: block;
+	margin: 0 auto;
+}
+.content_wrap .lb{
+	font-size: 30px;
+	padding-bottom: 20px;
+	text-align: left;
+	background: url(../images/pen_line_long.png) no-repeat bottom left;
+	position: relative;
+}
+
+.content_wrap .pen{
+	display: inline-block;
+	width: 61px;
+	height: 58px;
+	background: url(../images/pen_list.png) no-repeat;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.content_wrap .pen:hover{
+	background: url(../images/pen_list.png) no-repeat -61px 0px;
+	
+}
+/***********************************/
+.list_content{
+	width: 1130px;
+	height: 850px;
+	padding-top: 40px;
+}
+/***************************************模板*/
+.content_one{
+	width: 513px;
+	height: 202px;
+	padding: 36px 0 0 20px;
+	margin: 0 20px 30px 0;
+	border: 1px solid #fff;
+	background-color: white;
+	cursor: pointer;
+	position: relative;
+	float: left;
+}
+
+.content_one:hover{
+	transform:translateY(-6px);
+	transition: all 0.3s ease 0s;
+}
+.img_wrap{
+	width: 260px;
+	height: 168px;
+	margin-right: 17px;
+	float: left;
+}
+.list_text{
+	width: 221px;
+	float: left;
+}
+.list_text .title_small{
+	font-size: 20px;
+	color: #454548;
+	line-height: 26px;
+}
+.list_text .date{
+	font-size: 14px;
+	color: #6b6a6f;
+	padding-top: 2px;
+}
+.list_text p{
+	color: #47464a;
+	line-height: 25px;
+	padding-top: 8px;
+}
+/*listmore***********************************/
+.list_more{
+	width: 58px;
+	height: 58px;
+	background: url(../images/lis_more_btn_bg.png) no-repeat 0 -58px;
+	margin: 15px auto 130px;
+	cursor: pointer;
+	transition: background 0.5s;
+}
+.list_more:hover{
+	background: url(../images/lis_more_btn_bg.png) no-repeat 0px 0px;
+}

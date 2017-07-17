@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+/* 公共 */
+*{
+	margin:0;
+	padding:0;
+}
+img{
+	border:none 0;
+}
+a{
+	text-decoration:none;
+	cursor:pointer;
+}
+ul li{
+	list-style:none;
+}
+body{
+	font-family:STKaiti, KaiTi_GB2312, "华文楷体", "宋体", Arial, Helvetica, sans-serif;
+	font-size:15px;
+	background:#f1f2f6;
+	min-width: 1100px;
+}
+/*返回顶部浮动*/
+.fixed_tip{
+	width:87px;
+	height:161px;
+	position:fixed;
+	bottom:160px;
+	right:40px;
+	display:none;
+}
+.scroll_top{
+	background:url(../images/scroll_top_bg.png) no-repeat;
+	height:50px;
+	width:50px;
+	cursor:pointer;
+	margin-left:17px;
+	margin-bottom:24px;
+}
+.scroll_top:hover{
+	background-position:0 -50px;
+	transition: all 0.3s ease 0s;
+}
+.fixed_contactus{
+	width:87px;
+	height:87px;
+	position:absolute;
+	right:0;
+	top:74px;
+	background:url(../images/fixed_contactus.png) top right no-repeat;
+	cursor:pointer;
+}
+.fixed_contactus:hover{
+	width:235px;
+	animation:1s linear 0s normal none 1 running su-pudding;
+	transition: all 0.5s ease 0s;
+}

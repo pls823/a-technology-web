@@ -1,0 +1,495 @@
+
+
+
+body{
+	min-width: 1100px;
+	/*height: 100%;*/
+	/*height: 100px;*/
+	position: relative;
+	background-color: deepskyblue;
+}
+
+/*头部*/
+.header_wrap{
+	width: 100%;
+	min-width: 1100px;
+	height: 55px;
+	background: #221236 url(../images/aboutxiaoniao/beader_bg.jpg) no-repeat;
+}
+.header_wrap .header{
+	width: 1100px;
+	height: 55px;
+	margin: 0 auto;
+}
+.header_wrap .header .logo{
+	float: left;
+}
+
+/*导航*/
+.header_wrap .header .nav_wrap{
+	width:630px;
+	margin:0px auto;
+	height:25px;
+	line-height:25px;
+	float:right;
+	padding-top:11px;
+	text-align:right;
+}
+
+.header_wrap .header .nav_wrap .nav_li{
+	float:left;
+	position:relative;
+}
+
+.header_wrap .header .nav_wrap .nav_li h1{
+	font-size:16px;
+	text-align:center;
+	padding:0 15px;
+	position:relative;
+	cursor:pointer;
+	height:30px;
+	color:#aeabb4;	
+}
+
+.header_wrap .header .nav_wrap .nav_li h1:hover{
+	background:url(../images/nav_now_bg.png) no-repeat bottom center;
+	color:#fff;
+	transition: all 0.5s ease 0s;
+}
+.header_wrap .header .nav_wrap .nav_li.now h1{
+	background:url(../images/nav_now_bg.png) no-repeat bottom center;
+	color:#fff;
+}
+/*导航结束*/
+
+/*开始动画*/
+/*模块开始*/
+.wrap_block{
+	min-width: 1100px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	/*padding-top: 50px;*/
+	background-color: #299ad6;
+	color: #fff;
+}
+
+ .wrap_content{
+	width: 1100px;
+	height: 401px;
+	position:absolute;
+	/*border: 1px solid #000;*/
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin:auto;	
+	text-align: center;
+	overflow: hidden;
+}
+
+ .wrap_content .text{
+	width: 100%;
+	text-align: center;	
+	color: white;
+}
+
+ .wrap_content .text .title{
+	font-size: 44px;
+	line-height: 48px;
+}
+.wrap_content .text .en_title{
+	font-size: 16px;
+	line-height: 20px;
+	font-family: arial,helvetica; 
+	letter-spacing: 4px;
+}
+
+.wrap_content .text .sms{
+	font-size: 48px;
+	margin-top: 20px;
+}
+.wrap_content .text .talk{
+	margin-top: 20px;
+	font-size: 20px;
+	
+}
+
+.welcome_content{
+	display: none;
+}
+/*模块结束*/
+/*开始*/
+.content_wrap{
+	position: relative;
+	/*background-color: red;*/
+	overflow: hidden;
+}
+ .content{
+	transition: all 1s; 
+ 	position: absolute;
+ }
+.page1{
+	position: relative;
+	background: rgb(34,18,54);
+}
+.page1 .wrap_content{
+	height: 700px;
+}
+.page1 .wrap_content .more{
+	width: 58px;
+	height: 58px;
+	background: url(../images/aboutxiaoniao/donext.png) 0 -58px no-repeat;
+	margin:15px auto;
+}
+.page1 .wrap_content .more:hover{
+	transition:background 0.5s;
+	background: url(../images/aboutxiaoniao/donext.png) 0 0px no-repeat;
+	
+}
+/*第二页*/
+.page2{
+	position: relative;
+	background: #fff;
+}
+.page2 .page2btn{
+	/*width: 100%;
+	position: absolute;*/
+}
+.page2 .page2btn>div{
+	width: 58px;
+	height: 58px;
+	position: absolute;
+	top: 50%;
+	}
+	
+.page2 .page2btnl{
+	background: url(../images/aboutxiaoniao/goleft.png) no-repeat 0px 0px;
+	left:60px;
+}
+.page2 .page2btnl:hover{
+	transition: background 0.5s;
+	background: url(../images/aboutxiaoniao/goleft.png) no-repeat -58px 0px;
+}
+.page2 .page2btnr{
+	background: url(../images/aboutxiaoniao/goright.png) no-repeat -58px 0;
+	right:60px;
+}
+.page2 .page2btnr:hover{
+	transition: background 0.5s;
+	background: url(../images/aboutxiaoniao/goright.png) no-repeat 0px 0px;
+}
+.page2 .page2content{
+	width: 900px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+	z-index: 22;
+	overflow: hidden;
+	/*border: 1px solid #000;*/
+}
+.page2 .page2content .page2contentbox{
+	height: 600px;
+	width: 2700px;
+	position: absolute;
+	top: 50%;
+	margin-top: -300px;
+	left: 0;
+}
+.page2 .page2contentbox>div{
+	width: 900px;
+	height: 600px;
+	float: left;
+	text-align: center;
+	/*border: 1px solid #000;*/
+}
+
+.page2 .page2content1 h1{
+	color: #311759;
+	font-size: 55px;	
+}
+.page2 .page2content1 .sms{
+	font-size: 18px;
+	color: #6b6a6f;
+	line-height: 30px;
+	width: 850px;
+	margin: 20px auto;
+	text-align: center;
+}
+.page2 .page2content1>img{
+	margin:30px 20px 0 0;
+}
+
+
+
+.page2 .page2content2 {
+	color: #6b6a6f;
+}
+.page2 .page2content2 .page2content2c>div{
+	height: 100px;
+	margin:50px 0;
+}
+.page2 .page2content2 .page2content2c img{
+	display: block;
+	float: left;
+	margin: 0 50px;
+}
+.page2 .page2content2 .page2content2c p{
+	height: 50px;
+	text-align: left;
+	padding-top:20px;
+}
+/**/
+.page2 .page2content3{}
+.page2 .page2content3 .sms{
+	color: #221236;
+    font-size: 36px;
+    margin-top:80px;
+    line-height: 30px;
+}
+.page2 .page2content3 p{
+	width: 730px;
+	margin: 55px auto 0;
+	line-height: 30px;
+	font-size: 18px;
+	color: #6B6A6F;
+	text-align: left;
+	text-indent: 2em;
+}
+.page2 .page2content3 .page2content3b{
+	margin-top: 50px;
+}
+/*第三页*/
+.page3{
+	background: #221236;
+}
+.page3_container{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.page3_con_T{
+	width: 500px;
+	margin: 160px auto 150px;
+}
+.page3_con_T p{
+	color: white;
+	font-size: 45px;
+	text-align: center;
+	letter-spacing: 4px;
+}
+.page3_con_C{
+	width:900px;
+	padding: 30px 0 30px 30px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+}
+.page3_con_C>div{
+	width: 400px;
+	height: 75px;
+	display: inline-block;
+	margin: 15px;
+}
+.page3_cr{
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	border: 1px solid #5C516B;
+	text-align: center;
+	line-height: 75px;
+	float: left;
+	color: white;
+}
+.page3_C_text{
+	text-align: left;
+	height: 70px;
+	width: 290px;
+	color: white;
+	float: right;
+	padding-right:2em;
+	padding-top: 20px;
+}
+div[class^='page3_con_bg']{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+div.page3_con_bg2{
+	top: 0;
+	right: 0;
+	left: auto;
+}
+div.page3_con_bg3{
+	bottom: 0;
+	top: auto;
+}
+div.page3_con_bg4{
+	bottom: 0;
+	top: auto;
+	right: 0;
+	left: auto;
+}
+div[class^='page3_con_bg']>img{
+	position: absolute;
+	margin-left: -10px;
+}
+div[class^='page3_con_bg']>img:last-child{
+	animation: light 1s  infinite;
+}
+@keyframes light{
+	0%{
+		opacity: 1
+	}
+	50%{
+		opacity: 0.5;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+/*第四页*/
+.page4{
+	background:#f1f2f6 ;
+	color: #535355;
+	font-size: 16px;
+   font-family: KaiTi_GB2312;
+}
+.page4_container{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.page4_C_top{
+	width: 220px;
+	height: 55px;
+	margin:170px auto 70px auto;
+	font-size: 50px;
+	color: #311759;
+	line-height: 55px;
+	text-align: center;
+}
+.page4_C_bodys{
+	width: 910px;
+	height: 380px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.page4_C_body1{
+	width: 1820px;
+	height: 290px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.page4_C_body1 ul{
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+.page4_C_body1 ul li{
+	list-style: none;
+	width: 910px;
+	height: 36px;
+	line-height: 36px;
+	text-align:left;
+	border-bottom: 1px dashed #535355;
+	text-indent: 5px;
+}
+.page4_C_body1_box li:nth-child(1),
+.page4_C_body1_box li:nth-child(4){
+	text-indent: 3em;
+}
+.page4_C_body2_box li:nth-child(3),
+.page4_C_body2_box li:nth-child(8){
+	text-indent: 3em;
+}
+.page4_B_btns{
+	width: 180px;
+	height: 10px;
+	margin: 50px auto;
+	clear: both;
+}
+.page4_B_btn1{
+	border-radius: 4px;
+	float: left;
+	width: 78px;
+	height: 8px;
+	background:#ACACAC url(../images/aboutxiaoniao/xiaoniaoyun_btn.png) 0 0 no-repeat;
+}
+.page4_B_btn2{
+	border-radius: 4px;
+	float: right;
+	width: 78px;
+	height: 8px;
+	background:#ACACAC url(../images/aboutxiaoniao/xiaoniaoyun_btn.png) -80px 0 no-repeat;
+}
+/*第五页*/
+.page5_container{
+	padding: 1px;
+	width: 100%;
+	height: 100%;
+	background:url(../images/aboutxiaoniao/app&contacts_bg.gif) center center no-repeat;
+	background-size: 100% 100%;
+}
+.page5_C_tops,
+.page5_C_bottoms{
+	width: 700px;
+	height: 315px;
+	margin:auto;
+	position: relative;
+}
+.page5_C_top1,
+.page5_C_top2{
+	width: 314px;
+	height: 314px;
+	float: left;
+}
+.page5_C_top1 img{
+	width: 270px;
+	height: 270px;
+}
+.page5_C_top2{
+	width: 150px;
+	line-height: 280px;
+	font-size: 30px;
+	color: white;
+	text-align: right;
+}
+.page5_C_tops{
+	margin-top: 170px;
+}
+.page5_C_bottom{
+	width: 350px;
+	height: 350px;
+	float: right;
+	color: #000000;
+}
+.page5_C_bottom1{
+	font-size: 30px;
+	font-family: "新宋体";
+	width: 380px;
+	height: 50px;
+	line-height: 50px;
+	background: url(../images/aboutxiaoniao/contacts_line.png) bottom no-repeat;
+}
+.page5_C_bottom2 p{
+	margin-top: 8px;
+}
+
+.page5_C_tops:before{
+	content: '扫我下载“小鸟掌学”App';
+	position: absolute;
+	color: white;
+	top: 0;
+	left: 0;
+	margin-left:50px;
+	margin-top: -.5em;
+	font-family:"新宋体";
+}
